@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
                                     'Klemen Verdnik'  => 'klemen@layer.com',
                                     'Ben Blakely'     => 'ben@layer.com' }
   s.platform                    = :ios, '8.0'
-  
+  s.source                      = { :git => 'https://github.com/appunite/Atlas.git', :tag => s.version, :submodules => true }
   s.requires_arc                = true
   s.source_files                = 'Code/**/*.{h,m}'
   s.public_header_files         = 'Code/**/*.h'
